@@ -191,4 +191,6 @@ WHERE (valor > 750
 OR valor < 1000)
 AND carga_horaria = 25;
 
+--
+                
 COMMIT;
