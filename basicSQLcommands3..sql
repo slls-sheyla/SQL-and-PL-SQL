@@ -72,8 +72,8 @@ WHERE Trunc nascimento = '25/02/2019';
 SELECT cod_aluno, nascimento, Trunc(nascimento), nome
 FROM taluno
 WHERE nascimento
-  BETWEEN To_Date('21/05/2010 15:00', 'dd/mm/yyyy HH24:MI')
-    AND To_Date('26/02/2019 21:00', dd/mm/yyyy HH24:MI')
+  BETWEEN To_Date('21/05/2010 15:00', 'DD/MM/YYYY HH24:MI')
+    AND To_Date('26/02/2019 21:00', 'DD/MM/YYYY HH24:MI')
 
 SELECT cod_aluno, data, total,
        desconto, desconto + 1000 as calculo
